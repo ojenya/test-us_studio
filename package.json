@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ojenya/test-us_studio/issues"
   },
-  "homepage": "https://github.com/ojenya/test-us_studio#readme"
+  "homepage": "https://github.com/ojenya/test-us_studio#readme",
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
 }
