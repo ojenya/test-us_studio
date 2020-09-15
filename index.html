@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="scss" href="style.scss">
+
+    <title>Тестовое задание для US Web Studio</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Задание №1 -->
+        <h1>
+            Тестовое задание для <span class="green">US Web Studio</span>
+        </h1>
+        <hr>
+        <h2>Задание №1:
+            <span class="green">Сверстать страницу с сортировкой</span>
+        </h2>
+        <br>
+        <h3>Создайте страницу с списком товаров. У каждого товара должна быть уникальная стоимость. Над списком товаров реализовать кнопку с сортировкой по цене, которая работает без перезагрузки страницы. При проверке обращаем внимание на двухстороннюю сортировку,
+            внешний вид карточек, качество кода.
+        </h3>
+        <hr>
+        <div class="btns">
+            <button class="btn" id="sort-asc">Цена по возрастанию</button>
+            <button class="btn" id="sort-desc">Цена убыванию</button>
+            <button class="btn" id="sort-rating">По рейтингу</button>
+        </div>
+        <hr>
+
+        <!-- Ответ №1 -->
+        <div class="wrap"></div>
+
+
+        <hr>
+        <!-- Задание №2 -->
+        <h2>Задание №2 <span class="green">Написать простую функцию</span></h2>
+
+        <br>
+        <h3>Есть функция и логическая переменная is. Если функцию запустить N раз, значение переменной должно стать следующим:</h3>
+        <br>
+        <code> f(); //<< false  <br>
+            f(); //<< true<br>
+            f(); //<< false<br>
+            ...<br>
+            ...<br>
+            ...<br>
+        </code>
+        <br>
+        <h3>
+            Напишите тело функции в одну строчку, чтобы вывод был идентичен тому, который указаан выше.
+        </h3>
+        <hr>
+
+        <!-- Ответ №2 -->
+        <code> 
+            <b>var</b> is = true <br> <br>
+            function <b>f</b>(){ <br>
+            <b>return</b> is = !is <br>
+            }
+        </code>
+
+    </div>
+
+    <br>
+    <br>
+
+    <script src="sorted_menu.js"></script>
+</body>
+
+</html>

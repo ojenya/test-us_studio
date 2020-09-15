@@ -1,0 +1,23 @@
+{
+  "name": "test-us_studio",
+  "version": "1.0.0",
+  "description": "test task for test-us_studio",
+  "main": "sorted_menu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojenya/test-us_studio.git"
+  },
+  "keywords": [
+    "sort",
+    "toggle"
+  ],
+  "author": "Oseledets Evgeniy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ojenya/test-us_studio/issues"
+  },
+  "homepage": "https://github.com/ojenya/test-us_studio#readme"
+}
